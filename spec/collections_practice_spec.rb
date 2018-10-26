@@ -67,3 +67,10 @@ describe 'collections practice' do
     end
   end
 end
+
+# Advanced 4
+describe '#swap_elements_from_to' do
+  it 'swaps any two elemends of an array' do
+    expect(swap_elements_from_to(["a", "b", "c"],0,2).to eq(["c", "b", "a"]))
+  end
+end
