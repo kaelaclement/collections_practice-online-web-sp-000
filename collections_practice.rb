@@ -28,6 +28,7 @@ def kesha_maker(array)
     collection << word
   end
   collection
+  binding.pry
 end
 
 def find_a(array)
