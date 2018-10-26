@@ -30,6 +30,13 @@ describe 'collections practice' do
     end
   end
 
+  # Advanced 4
+  describe '#swap_elements_from_to' do
+    it 'swaps any two elements' do
+      expect(swap_elements_from_to(["a", "b", "c"],0,2)).to eq(["c", "b", "a"])
+    end
+  end
+
   # Question 5
   describe '#reverse_array' do
     it 'reverse the order of an array of integers' do
@@ -64,14 +71,6 @@ describe 'collections practice' do
   describe '#add_s' do
     it 'Add an "s" to each word in the array except for the 2nd element in the array' do
       expect(add_s(["hand","feet", "knee", "table"])).to eq(["hands","feet", "knees", "tables"])
-    end
-  end
-#end
-
-# Advanced 4
-  describe '#swap_elements' do
-    it 'swaps any two elemends of an array' do
-      expect(swap_elements_from_to(["a", "b", "c"],0,2)).to eq(["c", "b", "a"]))
     end
   end
 end
