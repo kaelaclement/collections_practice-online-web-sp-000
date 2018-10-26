@@ -45,3 +45,7 @@ def add_s(array)
     word << "s"
   end
 end
+
+def swap_elements_from_to(array,index,dest_index)
+  array[index], array[dest_index] = array[dest_index], array[index]
+end
