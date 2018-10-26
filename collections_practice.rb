@@ -25,4 +25,5 @@ def kesha_maker(array)
     word[2] = "$"
     collection << word
   end
+  collection
 end
