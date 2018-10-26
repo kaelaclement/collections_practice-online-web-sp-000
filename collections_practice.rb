@@ -1,5 +1,3 @@
-require 'pry'
-
 def sort_array_asc(array)
   array.sort
 end
@@ -24,11 +22,11 @@ end
 def kesha_maker(array)
   collection = []
   array.each do |word|
-    word[2] = "$"
-    collection << word
+    new_word = word
+    new_word[2] = "$"
+    collection << new_word
   end
   collection
-  binding.pry
 end
 
 def find_a(array)
